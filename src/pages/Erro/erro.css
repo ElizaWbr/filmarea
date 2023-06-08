@@ -1,0 +1,14 @@
+.erro_number {
+    font-size: 120px;
+}
+
+.erro_home {
+    text-decoration: none;
+    background-color: purple;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}

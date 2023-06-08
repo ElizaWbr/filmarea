@@ -1,13 +1,39 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  color: #fff;
+}
+
+.page_center {
+  display: flex;
+  height: calc(100vh + 90px);
+  width: 100%;
+  background-color: rgb(15, 15, 15);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: -80px;
+  padding-top: 80px;
+  overflow-y: visible;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("./fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("./fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
 }

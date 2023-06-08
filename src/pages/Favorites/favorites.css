@@ -1,0 +1,100 @@
+.container_favorites {
+    height: calc(100vh + 80px);
+    position: relative;
+    top: -80px;
+    background-color: rgb(15, 15, 15);
+}
+
+.fav_title {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0px 0px 0px;
+    justify-content: center;
+}
+
+.fav_title h2 {
+    font-weight: 400;
+}
+
+.fav_list {
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 10px;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.fav_empty_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    top: -120px;
+}
+
+.movie_info_fav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    min-height: 80px;
+    max-height: 80px;
+    justify-content: center;
+    position: relative;
+    top: -604px;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.movie_gradient_fav {
+    top: -600px;
+    position: relative;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, black);
+    max-height: 300px;
+    min-height: 300px;
+    width: 100%;
+}
+
+/* FAVORITE OPTIONS */
+
+.hover_fav {
+    max-height: 300px;
+    min-height: 300px;
+    width: 100%;
+    background-color: transparent;
+    top: -305px;
+    z-index: 1000;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 350ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover_fav:hover {
+    background-color: rgba(0, 0, 0, 0.621);
+    transition: 350ms;
+
+    .hover_fav_actions {
+        visibility: visible;
+    }
+}
+
+.hover_fav_actions {
+    visibility: hidden;
+}
+
+.hover_fav_actions_icon:hover {
+    background-image: radial-gradient(circle, black, black, black, rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.331), transparent, transparent, transparent);
+    border-radius: 25px;
+    cursor: pointer;
+}

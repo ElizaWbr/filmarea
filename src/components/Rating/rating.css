@@ -1,0 +1,8 @@
+.rating-stars {
+    display: flex;
+    padding-right: 20px;
+}
+
+.icon_star {
+    height: 1.2rem !important;
+}

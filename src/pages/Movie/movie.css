@@ -1,0 +1,157 @@
+.container-movie {
+    background-color: black;
+    position: relative;
+    height: 100vh;
+    top: -80px;
+}
+
+/* IMAGE POSTER */
+
+.movie_backdrop {
+    min-height: 470px;
+    max-height: 470px;
+}
+
+.movie_backdrop_poster {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.movie_backdrop_gradient {
+    top: -475px;
+    position: relative;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, transparent, transparent, transparent, black);
+    max-height: 475px;
+    min-height: 475px;
+    width: 100%;
+}
+
+/* MAIN INFO */
+
+.movie_main-info {
+    display: flex;
+    position: relative;
+    top: -475px;
+    height: 475px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px 50px 10px 50px;
+}
+
+.movie_main-info_tagline {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.movie_main-info_title {
+    font-size: 50px;
+    /* 24px */
+}
+
+/* DESCRIPTION */
+
+.movie_description {
+    display: flex;
+    padding-top: 10px;
+}
+
+.movie_description h2 {
+    padding-right: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+
+.movie_area_buttons {
+    display: flex;
+    top: -470px;
+    position: relative;
+    margin: 0px 40px;
+}
+
+.movie_buttons {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.movie_buttons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.movie_button_text {
+    margin-left: 5px;
+    color: #ffffffb3;
+}
+
+.movie_button_text:hover {
+    color: #fff;
+}
+
+/* DIVISION */
+
+.movie_detail {
+    display: flex;
+    top: -470px;
+    position: relative;
+    padding: 0px 30px 100px 30px;
+    background-color: black;
+}
+
+.movie_detail_left {
+    width: 70%;
+}
+
+.movie_detail_right {
+    width: 30%;
+}
+
+/* OVERVIEW */
+
+.movie_overview {
+    padding: 20px;
+    text-align: justify;
+}
+
+.movie_overview_text {
+    font-size: 18px;
+}
+
+/* TECHNICAL INFO */
+
+.movie_technical {
+    padding: 20px 30px;
+}
+
+.movie_technical_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.info_title {
+    color: #777777;
+    font-size: 18px;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.info_text {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.noinfo_text {
+    display: none;
+}
